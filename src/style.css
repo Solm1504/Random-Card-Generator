@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  max-width: 20rem;
+  height: 30rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 4rem;
+}
+
+.palo {
+  font-size: 6rem;
+}
+.reverse {
+  font-size: 6rem;
+  transform: rotate(180deg);
+}
+.center {
+  font-size: 8rem;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
